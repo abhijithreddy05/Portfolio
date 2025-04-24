@@ -158,6 +158,6 @@ export const projects = [
     description: 'An AI-powered platform for institutions to analyze student resumes and individuals to receive personalized career suggestions and skill development insights.',
     image: 'https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['Python', 'FastAPI', 'React.js', 'MongoDB', 'Hugging Face', 'Scikit-Learn'],
-    githubLink: 'https://github.com/abhijithreddy05/career-catalyst',
+    githubLink: 'https://github.com/sriraghavi22/careerCatalyst',
   },
 ];
