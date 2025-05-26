@@ -17,6 +17,7 @@ export interface Project {
   tags: string[];
   demoLink?: string;
   githubLink?: string;
+  website?: string;
 }
 
 export interface Experience {
@@ -39,6 +40,7 @@ export interface Certificate {
   issuer: string;
   name: string;
   year: string;
+  file: string;
 }
 
 export interface Achievement {
@@ -68,7 +70,7 @@ export const skills = [
   { name: 'Python', description: 'Skilled in Python for AI and scripting.', icon: 'PythonIcon' },
   { name: 'C', description: 'Knowledgeable in C for system-level programming.', icon: 'CIcon' },
   { name: 'JavaScript', description: 'Expert in JavaScript for dynamic web applications.', icon: 'JavaScriptIcon' },
-  { name: 'Data Structures and Algorithms', description: 'Strong foundation in DSA.', icon: 'DataStructuresIcon' },
+  { name: 'DSA', description: 'Strong foundation in DSA.', icon: 'DataStructuresIcon' },
   { name: 'HTML', description: 'Expert in HTML for web structure.', icon: 'HTMIIcon' },
   { name: 'CSS', description: 'Expert in CSS for web styling.', icon: 'CSSIcon' },
   { name: 'React.js', description: 'Experienced in building UIs with React.js.', icon: 'ReactIcon' },
@@ -122,14 +124,14 @@ export const education = [
 ];
 
 export const certifications = [
-  { name: 'Programming in Java', issuer: 'NPTEL', year: '2024' },
-  { name: 'Programming Essentials in Python', issuer: 'Cisco', year: '2024' },
-  { name: 'Java Fundamentals', issuer: 'Oracle', year: '2024' },
+  { name: 'Programming in Java', issuer: 'NPTEL', year: '2024', file: 'java nptel.pdf' },
+  { name: 'Programming Essentials in Python', issuer: 'Cisco', year: '2024', file: 'PCAP: Programming Essentials in Python.pdf' },
+  { name: 'Java Fundamentals', issuer: 'Oracle', year: '2024', file: 'java oracle.pdf' },
   // { name: 'Java Foundations', issuer: 'Oracle', year: '2024' },
-  { name: 'The Joy of Computing Using Python', issuer: 'NPTEL', year: '2024' },
-  { name: 'Programming with Python 3.X', issuer: 'SKILLUP', year: '2024' },
-  { name: 'Summer of AI', issuer: 'Swecha', year: '2024' },
-  { name: 'Java (Basic)', issuer: 'HackerRank', year: '2024' },
+  { name: 'The Joy of Computing Using Python', issuer: 'NPTEL', year: '2024', file: 'Nptel py.pdf' },
+  { name: 'Programming with Python 3.X', issuer: 'SKILLUP', year: '2024', file: 'skill up.pdf' },
+  { name: 'Summer of AI', issuer: 'Swecha', year: '2024', file: 'swetch.pdf' },
+  { name: 'Java (Basic)', issuer: 'HackerRank', year: '2024', file: 'hacker rank java.pdf' },
 ];
 
 export const achievements = [
@@ -151,13 +153,15 @@ export const projects = [
     image: 'https://marketplace.canva.com/EAE8fLYOzrA/1/0/1600w/canva-health-care-bO8TgMWVszg.jpg',
     tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Flask', 'AI', 'JWT'],
     githubLink: 'https://github.com/abhijithreddy05/healthsphere',
+    website: 'https://health-sphere-frontend.vercel.app/',
   },
   {
     id: 2,
     title: 'Career Catalyst',
-    description: 'An AI-powered platform for institutions to analyze student resumes and individuals to receive personalized career suggestions and skill development insights.',
-    image: 'https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    description: 'A web platform for resume analysis, job search, institutional hiring, and organizational GitHub stats with salary suggestions.',
+    image: 'https://files.selar.co/product-images/2024/products/rita-babalola1/career-gps-a-career-clari-selar.co-6664142cc9386.jpeg',
     tags: ['Python', 'FastAPI', 'React.js', 'MongoDB', 'Hugging Face', 'Scikit-Learn'],
     githubLink: 'https://github.com/sriraghavi22/careerCatalyst',
+    website: 'https://career-catalyst-six.vercel.app',
   },
 ];

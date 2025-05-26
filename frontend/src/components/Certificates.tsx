@@ -29,9 +29,12 @@ const Certificates = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {certifications.map((certificate, index) => (
-            <motion.div
+            <motion.a
               key={index}
-              className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 shadow-md transition-all duration-300 hover:shadow-lg border-l-4 border-blue-500 dark:border-blue-400"
+              href={`/certificates/${certificate.file}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 shadow-md transition-all duration-300 hover:shadow-lg border-l-4 border-blue-500 dark:border-blue-400 block cursor-pointer"
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.5, delay: 0.1 * index }}
@@ -47,7 +50,7 @@ const Certificates = () => {
               <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
                 Issued by {certificate.issuer} in {certificate.year}
               </p>
-            </motion.div>
+            </motion.a>
           ))}
         </div>
       </div>

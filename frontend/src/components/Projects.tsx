@@ -96,6 +96,18 @@ const Projects = () => {
                           <ExternalLink size={18} className="text-white" />
                         </a>
                       )}
+                      {project.website && (
+                        <a
+                          href={project.website}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="p-2 bg-white/20 backdrop-blur-sm rounded-full transition-colors duration-300 hover:bg-white/40 flex items-center gap-1"
+                          aria-label="View Website"
+                        >
+                          <ExternalLink size={18} className="text-white" />
+                          <span className="hidden sm:inline text-white text-xs font-semibold">View Website</span>
+                        </a>
+                      )}
                       {project.githubLink && (
                         <a 
                           href={project.githubLink} 

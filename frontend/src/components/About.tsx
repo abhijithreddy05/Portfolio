@@ -50,16 +50,24 @@ const About = () => {
             </h3>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md border">
               <p className="text-gray-800 dark:text-gray-200 mb-4">
-              I'm a BTech student (class of 2026) at B V Raju Institute of Technology, maintaining a CGPA of 7.41. I’m passionate about full-stack development, exploring AI & ML and tackling complex challenges through creative problem solving, with an interest in building user-focused tech solutions.
+              I'm a BTech student (class of 2026) at B V Raju Institute of Technology, maintaining a CGPA of 7.41. I'm passionate about full-stack development, exploring AI & ML and tackling complex challenges through creative problem solving, with an interest in building user-focused tech solutions.
               </p>
               <ul className="text-gray-800 dark:text-gray-300 space-y-2">
-                <li><strong>Location:</strong> Hyderabad, India</li>
-                <li><strong>Education:</strong> BTech in Computer Science (Data Science)</li>
-                <li><strong>Interests:</strong> Web Development, Problem Solving</li>
+                <li><b>Location:</b> Hyderabad, India</li>
+                <li><b>Education:</b> BTech in Computer Science (Data Science)</li>
+                <li><b>Interests:</b> Web Development, Problem Solving</li>
               </ul>
             </div>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-6 px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full shadow-lg transition duration-300"
+            >
+              View Resume
+            </a>
             {/* <p className="text-gray-700 dark:text-gray-300 mb-8">
-              Based in Hyderabad, India, I’m pursuing a BTech in Computer Science (Data Science), and I’m excited to explore innovative ways to create impactful software.
+              Based in Hyderabad, India, I'm pursuing a BTech in Computer Science (Data Science), and I'm excited to explore innovative ways to create impactful software.
             </p> */}
 
             {/* <div className="grid grid-cols-2 gap-4">

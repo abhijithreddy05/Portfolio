@@ -30,14 +30,14 @@ const Hero = () => {
           <span className="typing-text">Full-Stack Developer & Exploring AI & ML</span>
         </motion.h2>
 
-        <motion.p 
+        {/* <motion.p 
           className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           BTech student with a focus on AI, and Full-Stack development. Enthusiastic about building impactful projects that blend smart technology with real-world applications.
-        </motion.p>
+        </motion.p> */}
 
         <motion.div 
           className="flex flex-col sm:flex-row gap-4 mb-16"
@@ -72,7 +72,7 @@ const Hero = () => {
             className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300"
             aria-label="GitHub"
           >
-            <GitHub size={24} />
+            <GitHub size={32} />
           </a>
           <a 
             href="https://linkedin.com/in/anugu-abhijith-reddy-a38a65293/" 
@@ -81,23 +81,23 @@ const Hero = () => {
             className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300"
             aria-label="LinkedIn"
           >
-            <Linkedin size={24} />
+            <Linkedin size={32} />
           </a>
           <a 
             href="mailto:anuguabhijithreddy0202@gmail.com" 
             className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300"
             aria-label="Email"
           >
-            <Mail size={24} />
+            <Mail size={32} />
           </a>
-          <a 
+          {/* <a 
             href="/resume.pdf" 
             download
             className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors duration-300"
             aria-label="Resume"
           >
             <FileText size={24} />
-          </a>
+          </a> */}
         </motion.div>
 
         <motion.a 
