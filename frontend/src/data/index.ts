@@ -137,7 +137,7 @@ export const certifications = [
 export const achievements = [
   {
     title: '4th Place Overall & 2nd Prize in Domain',
-    description: 'Secured 4th Place Overall and Domain-wise 2nd Prize in the Healthcare domain for the project (HealthSphere) at HackWithinfinity, a national-level hackathon.',
+    description: 'Secured 4th Place Overall and Domain-wise 2nd Prize in the Healthcare domain for the project HealthSphere atHackWithinfinity, a national-level hackathon with participation from 129 teams.',
   },
   {
     title: 'Academic Excellence',
