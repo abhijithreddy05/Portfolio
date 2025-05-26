@@ -32,14 +32,14 @@ const Navbar = () => {
 
   // Map nav items to appropriate icons
   const navIcons = {
-    'Home': <Home size={18} className="mr-2" />,
-    'About': <User size={18} className="mr-2" />,
-    'Projects': <Briefcase size={18} className="mr-2" />,
-    'Skills': <Code size={18} className="mr-2" />,
-    'Achievements': <Award size={18} className="mr-2" />,
-    'Experience & Education': <GraduationCap size={18} className="mr-2" />,
-    'Certificates': <FileCode size={18} className="mr-2" />,
-    'Contact': <MailIcon size={18} className="mr-2" />
+    'Home': <Home size={22} className="mr-2 text-blue-500" />,
+    'About': <User size={22} className="mr-2 text-purple-500" />,
+    'Projects': <Briefcase size={22} className="mr-2 text-orange-400" />,
+    'Skills': <Code size={22} className="mr-2 text-green-500" />,
+    'Achievements': <Award size={52} className="mr-2 text-yellow-400" />,
+    'Experience & Education': <GraduationCap size={32} className="mr-2 text-violet-500" />,
+    'Certificates': <FileCode size={42} className="mr-2 text-rose-500" />,
+    'Contact': <MailIcon size={22} className="mr-2 text-sky-500" />
   };
 
   return (
