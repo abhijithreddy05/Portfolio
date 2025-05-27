@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -66,6 +67,12 @@ const About = () => {
             >
               View Resume
             </a>
+            <Link
+              to="/video-resume"
+              className="inline-block mt-4 px-8 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-full shadow-lg transition duration-300"
+            >
+              View Video Resume
+            </Link>
             {/* <p className="text-gray-700 dark:text-gray-300 mb-8">
               Based in Hyderabad, India, I'm pursuing a BTech in Computer Science (Data Science), and I'm excited to explore innovative ways to create impactful software.
             </p> */}
