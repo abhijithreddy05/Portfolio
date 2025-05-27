@@ -152,7 +152,7 @@ export const projects = [
     description: 'Developed a full-stack healthcare platform that streamlines patient care management. Features include electronic health records, appointment scheduling, prescription management, and secure data sharing between healthcare providers. Implemented role-based access control and HIPAA-compliant data storage.',
     image: 'https://marketplace.canva.com/EAE8fLYOzrA/1/0/1600w/canva-health-care-bO8TgMWVszg.jpg',
     tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Flask', 'AI', 'JWT'],
-    githubLink: 'https://github.com/abhijithreddy05/healthsphere',
+    githubLink: 'https://github.com/jaishnaviinturi/HealthSphere_Full_Stack_Project',
     website: 'https://health-sphere-frontend.vercel.app/',
   },
   {
